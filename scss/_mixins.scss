@@ -1,0 +1,22 @@
+@mixin list-none {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@mixin link-deceration {
+    text-decoration: none;
+}
+
+@mixin mobile-first($min) {
+    @media only screen and (min-width: $min) {
+        @content;
+    }
+}
+
+@mixin font($weight, $size, $line, $color) {
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
