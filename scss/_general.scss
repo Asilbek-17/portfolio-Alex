@@ -10,6 +10,8 @@
 html{
     height: 100%;
     box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 img{
@@ -19,11 +21,26 @@ img{
 
 body {
     height: 100%;
-    background-color: #EDF3F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
-    font-family: "DM Serif Display", "Arial", sans-serif;
+    background-color: #fff;
+    overflow-x: hidden;
+    font-family: "Ibarra Real Nova", serif;
     font-family: "Public Sans", "Arial", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.body-scroll {
+    overflow: hidden;
+}
+
+@include mobile-first(700px) {
+    .body-scroll {
+        overflow: scroll;
+    }
 }
 
 /* STICKY-FOOTER */

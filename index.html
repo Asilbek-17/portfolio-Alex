@@ -5,29 +5,117 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
-  <title>Template project</title>
+  <title>M.P.W</title>
 </head>
 <body>
   <!-- Site header start -->
   <header class="site-header">
-
+    <div class="container">
+      <div class="site-header__box">
+        <a class="logo" href="./index.html"><img class="logo__img" src="./images/icons/site-logo.svg" alt="Site logo"></a>
+        <ul class="site-menu">
+          <li class="site-menu__item">
+            <a class="site-menu__link site-menu__link-active" href="./index.html">Home</a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="./portfolio.html">PORTFOLIO</a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="./contact.html">CONTACT ME</a>
+          </li>
+        </ul>
+        <button class="burger" type="button"></button>
+      </div>
+    </div>
   </header>
   <!-- Site header finish -->
-
+  
   <!-- Site main start -->
   <main class="site-main">
     <!-- Hero section start -->
     <section class="hero">
-      
+      <div class="container hero__container">
+        <div class="hero__inner">
+          <div class="hero__box"> 
+            <h1 class="hero__title">Hey, I’m Alex Spencer and I love building beautiful websites</h1>
+            <a class="me-btn" href="#about">ABOUT ME</a>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Hero section finish -->
+    <section class="about-me" id="about">
+      <div class="container">
+        <div class="about-me__wraper">
+          <picture class="about-me__webp">
+            
+            <source srcset="./images/alex-desktop.webp" media="(min-width: 1000px)" type="image/webp">
+            <source
+            media="(min-width: 1000px)"
+            srcset="./images/alex-desktop.png"
+            >
+
+            <source srcset="./images/alex-tablet.webp" media="(min-width: 700px)" type="image/webp">
+            <source
+            media="(min-width: 700px)"
+            srcset="./images/alex-tablet.png"
+            >
+
+            <source srcset="./images/alexx-mobile.webp" type="image/webp">
+            <img class="about-me__img" src="./images/alexx-mobile.png" alt="Alex img">
+          </picture>
+          <div class="about-me__box">
+            <h2 class="about-me__tile">About Me</h2>
+            <p class="about-me__text">I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk, run or cycling. I’d love you to check out my work.</p>
+            <a class="about-me__link" href="./portfolio.html">GO TO PORTFOLIO</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="interesed">
+      <div class="container">
+        <div class="interesed__box">
+          <div class="interesed__text-box">
+            <h2 class="interesed__tile">Interested in doing a project together?</h2>
+          </div>
+          <a class="interesed__link" href="./contact.html">CONTACT ME</a>
+        </div>
+      </div>
+    </section>
   </main>
   <!-- Site main finish -->
-
+  
   <!-- Site footer start -->
   <footer class="site-footer">
-
+    <div class="container">
+      <div class="foot">
+        <a class="footer-logo" href="./index.html"><svg width="61" height="32" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M31.347 26.122 15.673 0 0 26.122h31.347ZM60.082 5.878 44.408 32 28.735 5.878h31.347Z" fill="#fff"/></svg></a>
+        <ul class="foot__list">
+          <li class="foot__item">
+            <a class="foot__link" href="./index.html">HOME</a>
+          </li>
+          <li class="foot__item">
+            <a class="foot__link" href="./portfolio.html">PORTFOLIO</a>
+          </li>
+          <li class="foot__item">
+            <a class="foot__link" href="./contact.html">CONTACT ME</a>
+          </li>
+        </ul>
+        <ul class="social">
+          <li class="social__item">
+            <a class="social__link" href="github.com" target="blank"><img src="./images/icons/github.svg" alt="github"></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="twitter.com" target="blank"><img src="./images/icons/twitter.svg" alt="github"></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="linkedin.com" target="blank"><img src="./images/icons/linkedin.svg" alt="github"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </footer>
   <!-- Site footer finish -->
+  <script src="./js/main.js"></script>
 </body>
 </html>

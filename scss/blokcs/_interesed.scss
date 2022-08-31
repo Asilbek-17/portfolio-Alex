@@ -1,0 +1,112 @@
+.interesed {
+    padding-bottom: 80px;
+}
+
+.interesed__tile {
+    font-family: 'Ibarra Real Nova';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.interesed__link {
+    display: block;
+    width: 162px;
+    margin: 0 auto;
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #33323D;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #33323D;
+    padding: 17px;
+    text-decoration: none;
+    transition: .4s;
+    
+    &:hover {
+        background-color: #33323D;
+        color: #fafafa;
+    }
+}
+
+@include mobile-first(375px) {
+    .interesed__box {
+        width: 311px;
+        margin: 0 auto;
+    }
+}
+
+@include mobile-first(450px) {
+    .interesed__box {
+        width: 400px;
+    }
+}
+
+@include mobile-first(700px) {
+    .interesed__box {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .interesed__tile {
+        display: flex;
+        align-items: center;
+        width: 350px;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: -0.357143px;
+        margin-bottom: 0;
+        text-align: left;
+        margin-right: 30px;
+    }
+
+    .interesed__text-box {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .interesed__text-box::after {
+        content: "";
+        display: block;
+        width: 113px;
+        height: 1px;
+        background-color: #33323D;
+        opacity: 0.15;
+        margin-right: 32px;
+    }
+
+    .interesed__link {
+        margin: 0;
+    }
+}
+
+@include mobile-first(1000px) {
+    .interesed__tile {
+        width: 350px;
+    }
+
+    .interesed__text-box::after {
+        width: 313px;
+    }
+}
+
+@include mobile-first(1400px) {
+    .interesed__tile {
+        width: 350px;
+    }
+
+    .interesed__text-box::after {
+        width: 513px;
+    }
+}
