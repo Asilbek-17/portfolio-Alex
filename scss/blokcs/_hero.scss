@@ -227,3 +227,13 @@
         background-size: 1110px 600px;
     }
 }
+
+@include mobile-first(1425px) {
+    .hero {
+        background-size: 1111px 600px;
+    }
+
+    .hero__box {
+        left: calc(1%);
+    }
+}
