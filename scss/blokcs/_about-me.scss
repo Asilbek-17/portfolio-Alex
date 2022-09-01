@@ -29,10 +29,11 @@
 
 .about-me__img {
     width: 280px;
+    margin: 0 auto;
 }
 
 .about-me__box {
-    width: 290px;
+    min-width: 290px;
     margin: 0 auto;
 }
 
@@ -100,7 +101,7 @@
     }
     
     .about-me__box {
-        width: 311px;
+        min-width: 311px;
     }
     
 }
@@ -116,9 +117,9 @@
         width: 400px;
     }
     
-    .about-me__box {
-        width: 400px;
-    }
+    // .about-me__box {
+    //     width: 400px;
+    // }
     
 }
 
@@ -133,9 +134,9 @@
         width: 460px;
     }
     
-    .about-me__box {
-        width: 450px;
-    }
+    // .about-me__box {
+    //     width: 450px;
+    // }
     
 }
 
@@ -157,7 +158,6 @@
     }
     
     .about-me__box {
-        width: 560px;
         text-align: center;
     }
     
@@ -186,10 +186,10 @@
     .about-me__img {
         width: 280px;
         height: 600px;
+        margin-right: 10px;
     }
     
     .about-me__box {
-        width: 330px;
         text-align: left;
         border-bottom: 1px solid #33323D15;
         border-top: 1px solid #33323D15;
