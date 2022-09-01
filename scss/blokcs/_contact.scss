@@ -24,7 +24,6 @@
 .contact__inp {
     width: 280px;
     display: block;
-    margin: 0 auto;
     margin-top: 8px;
     padding: 9px 16px;
     font-family: 'Public Sans';
@@ -74,7 +73,6 @@
     min-width: 280px;
     display: block;
     height: 96px;
-    margin: 0 auto;
     margin-top: 8px;
     padding: 9px 16px;
     font-family: 'Public Sans';
@@ -124,121 +122,121 @@
 
 @include mobile-first(375px) {
     .contact__inp {
-        min-width: 311px;
+        min-width: 331px;
     }
     
     .contact__txtare {
-        min-width: 311px;
+        min-width: 331px;
     }
 }
 
 @include mobile-first(400px) {
     .contact__inp {
-        min-width: 360px;
+        min-width: 380px;
     }
     
     .contact__txtare {
-        min-width: 360px;
+        min-width: 380px;
     }
 }
 
 @include mobile-first(450px) {
     .contact__inp {
-        min-width: 410px;
+        min-width: 430px;
     }
     
     .contact__txtare {
-        min-width: 410px;
+        min-width: 430px;
     }
 }
 
 @include mobile-first(500px) {
     .contact__inp {
-        min-width: 460px;
+        min-width: 480px;
     }
     
     .contact__txtare {
-        min-width: 460px;
+        min-width: 480px;
     }
 }
 
 @include mobile-first(550px) {
     .contact__inp {
-        min-width: 510px;
+        min-width: 530px;
     }
     
     .contact__txtare {
-        min-width: 510px;
+        min-width: 530px;
     }
 }
 
 @include mobile-first(600px) {
     .contact__inp {
-        min-width: 560px;
+        min-width: 580px;
     }
     
     .contact__txtare {
-        min-width: 560px;
+        min-width: 580px;
     }
 }
 
 @include mobile-first(650px) {
     .contact__inp {
-        min-width: 610px;
+        min-width: 630px;
     }
     
     .contact__txtare {
-        min-width: 610px;
+        min-width: 630px;
     }
 }
 
 @include mobile-first(700px) {
     .contact__inp {
-        min-width: 660px;
+        min-width: 680px;
     }
     
     .contact__txtare {
-        min-width: 660px;
+        min-width: 680px;
     }
 }
 
 @include mobile-first(768px) {
     .contact__inp {
-        min-width: 689px;
+        min-width: 709px;
     }
     
     .contact__txtare {
-        min-width: 689px;
+        min-width: 709px;
     }
 }
 
 @include mobile-first(800px) {
     .contact__inp {
-        min-width: 760px;
+        min-width: 780px;
     }
     
     .contact__txtare {
-        min-width: 760px;
+        min-width: 780px;
     }
 }
 
 @include mobile-first(850px) {
     .contact__inp {
-        min-width: 810px;
+        min-width: 830px;
     }
     
     .contact__txtare {
-        min-width: 810px;
+        min-width: 830px;
     }
 }
 
 @include mobile-first(900px) {
     .contact__inp {
-        min-width: 860px;
+        min-width: 880px;
     }
     
     .contact__txtare {
-        min-width: 860px;
+        min-width: 880px;
     }
 }
 
